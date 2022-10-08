@@ -8,6 +8,13 @@
   "rangeStrategy": "bump",
   "packageRules": [
     {
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "pin",
+        "digest"
+      ],
       "automerge": true
     }
   ]
